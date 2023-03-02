@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Ferretería del Sur</title>
+  </head>
+  <body>
+    <!-- Inicio del header -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="imagenes/Logo_Ferretería-removebg-preview.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#inicio">inicio</a>
+        <a href="#nosotros">nosotros</a>
+        <a href="#ofertas">ofertas</a>
+        <a href="#productos">productos</a>
+        <a href="#contacto">contacto</a>
+      </nav>
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Buscar artículos" />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="imagenes/Amoladora.jpg" alt="" />
+          <div class="content">
+            <h3>Producto 01</h3>
+            <div class="precio">$10.99</div>
+          </div>
+          <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="imagenes/Bordeadora 350w.jpg" alt="" />
+          <div class="content">
+            <h3>Producto 02</h3>
+            <div class="precio">$10.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="imagenes/Cajas de herramientas.jpg" alt="" />
+          <div class="content">
+            <h3>Producto 03</h3>
+            <div class="precio">$10.99</div>
+          </div>
+          <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="imagenes/Mochila.jpg" alt="" />
+          <div class="content">
+            <h3>Producto 04</h3>
+            <div class="precio">$10.99</div>
+          </div>
+          <a href="#" class="btn">Verificar</a>
+      </div>
+    </header>
+
+    <!-- Fin del header -->
+
+    <!-- Inicio de la seccion del home -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Todo lo que necesites, está a tu alcance</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quia consequuntur ab, numquam omnis atque?</p>
+        <a href="#" class="btn">Adquiere tus productos ya mismo</a>
+      </div>
+    </section>
+
+    <!-- Fin de la seccion del home -->
+
+    <!-- Inicio seccion nosotros -->
+
+    <section class="nosotros" id="nosotros">
+      <h1 class="heading"><span>Sobre</span> Nosotros</h1>
+      <div class="row">
+        <div class="image">
+          <img src="imagenes/Seguinoss.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>¿Qué nos hace ser especiales?</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptates nostrum laboriosam perferendis molestias, mollitia maxime, doloribus unde debitis animi beatae illo perspiciatis totam rem est sequi natus error dolorum?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, quas facere corporis dolorem quae nesciunt repudiandae ipsam exercitationem! Totam, autem.</p>
+          <a href="#" class="btn">Leer más</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Fin seccion nosotros -->
+
+    <!-- Inicio de la seccion ofertas -->
+
+    <section class="ofertas" id="ofertas">
+      <h1 class="heading">Nuestras<span> Ofertas</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="imagenes/Amoladora.jpg" alt="">
+          <h3>Lo mejor en calidad</h3>
+          <div class="precio">$10.99 <span>$15.99</span></div>
+          <a href="#" class="btn">Añadir al Carrito</a>
+        </div>
+        <div class="box">
+          <img src="imagenes/Bordeadora 350w.jpg" alt="">
+          <h3>Lo mejor en calidad</h3>
+          <div class="precio">$10.99 <span>$15.99</span></div>
+          <a href="#" class="btn">Añadir al Carrito</a>
+        </div>
+        <div class="box">
+          <img src="imagenes/Cajas de herramientas.jpg" alt="">
+          <h3>Lo mejor en calidad</h3>
+          <div class="precio">$10.99 <span>$15.99</span></div>
+          <a href="#" class="btn">Añadir al Carrito</a>
+        </div>
+        <div class="box">
+          <img src="imagenes/Mochila.jpg" alt="">
+          <h3>Lo mejor en calidad</h3>
+          <div class="precio">$10.99 <span>$15.99</span></div>
+          <a href="#" class="btn">Añadir al Carrito</a>
+        </div>
+        <div class="box">
+          <img src="imagenes/Carretilla.jpg" alt="">
+          <h3>Lo mejor en calidad</h3>
+          <div class="precio">$10.99 <span>$15.99</span></div>
+          <a href="#" class="btn">Añadir al Carrito</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fin de la seccion ofertas -->
+
+    <!-- Inicio seccion productos -->
+
+    <section class="productos" id="productos">
+      <h1 class="heading">Nuestros <span> Productos</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="imagenes/Amoladora.jpg" alt="">
+          </div>
+          <div class="content">
+            <h3>Amoladora INGCO</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="precio">$10.99 <span>$15.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="imagenes/Bordeadora 350w.jpg" alt="">
+          </div>
+          <div class="content">
+            <h3>Amoladora INGCO</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="precio">$10.99 <span>$15.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="imagenes/Mochila.jpg" alt="">
+          </div>
+          <div class="content">
+            <h3>Amoladora INGCO</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="precio">$10.99 <span>$15.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fin seccion productos -->
+
+    <!-- Inicio seccion contacto -->
+
+    <section class="contacto" id="contacto">
+      <h1 class="heading"> <span>Nuestro</span> Contacto</h1>
+      <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411.7431980232266!2d-56.715500956010295!3d-34.35186297220494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a1770d9a4221db%3A0xb79c4d3bd78e57b!2sFerreter%C3%ADa%20del%20Sur!5e0!3m2!1ses-419!2suy!4v1677714736976!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="">
+          <h3>Ponerse en Contacto</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="Nombre">
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="Email">
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="Numero">
+          </div>
+          <input type="submit" value="Contactanos ahora" class="btn">
+        </form>
+      </div>
+    </section>
+
+    <!-- Fin seccion contacto -->
+
+    <!-- Inicio seccion footer -->
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-whatsapp"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">inicio</a>
+        <a href="#">nosotros</a>
+        <a href="#">ofertas</a>
+        <a href="#">productos</a>
+        <a href="#">contacto</a>
+      </div>
+      <div class="credit">Creado por <span>Ezequiel Silva</span> Derechos Reservados</div>
+    </section>
+
+    <!-- Fin seccion footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+      src = "js/scripts.js";></script>
+    </script>
+  </body>
+</html>
